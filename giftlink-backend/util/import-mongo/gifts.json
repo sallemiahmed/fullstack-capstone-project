@@ -1,0 +1,18 @@
+[
+  { "id": "1", "name": "Vintage Bookshelf", "category": "Furniture", "condition": "Good", "description": "A sturdy wooden bookshelf with 5 shelves", "age_days": 730, "age_years": 2, "image": "/images/bookshelf.jpg" },
+  { "id": "2", "name": "Kitchen Mixer", "category": "Kitchen", "condition": "Like New", "description": "Electric stand mixer, barely used", "age_days": 180, "age_years": 0.5, "image": "/images/mixer.jpg" },
+  { "id": "3", "name": "Yoga Mat", "category": "Sports", "condition": "Good", "description": "Non-slip exercise yoga mat, purple", "age_days": 365, "age_years": 1, "image": "/images/yogamat.jpg" },
+  { "id": "4", "name": "Desk Lamp", "category": "Electronics", "condition": "Good", "description": "LED desk lamp with adjustable brightness", "age_days": 540, "age_years": 1.5, "image": "/images/lamp.jpg" },
+  { "id": "5", "name": "Winter Jacket", "category": "Clothing", "condition": "Like New", "description": "Warm winter jacket, size M", "age_days": 365, "age_years": 1, "image": "/images/jacket.jpg" },
+  { "id": "6", "name": "Board Game Set", "category": "Toys", "condition": "Good", "description": "Collection of classic board games", "age_days": 900, "age_years": 2.5, "image": "/images/boardgames.jpg" },
+  { "id": "7", "name": "Coffee Table", "category": "Furniture", "condition": "Fair", "description": "Glass top coffee table", "age_days": 1095, "age_years": 3, "image": "/images/coffeetable.jpg" },
+  { "id": "8", "name": "Running Shoes", "category": "Sports", "condition": "Good", "description": "Running shoes, size 10, lightly worn", "age_days": 200, "age_years": 0.5, "image": "/images/shoes.jpg" },
+  { "id": "9", "name": "Toaster Oven", "category": "Kitchen", "condition": "Good", "description": "Compact toaster oven", "age_days": 730, "age_years": 2, "image": "/images/toaster.jpg" },
+  { "id": "10", "name": "Bluetooth Speaker", "category": "Electronics", "condition": "Like New", "description": "Portable Bluetooth speaker", "age_days": 120, "age_years": 0.3, "image": "/images/speaker.jpg" },
+  { "id": "11", "name": "Garden Tools Set", "category": "Garden", "condition": "Good", "description": "Set of basic garden tools", "age_days": 450, "age_years": 1.2, "image": "/images/gardentools.jpg" },
+  { "id": "12", "name": "Painting Set", "category": "Art", "condition": "Like New", "description": "Complete acrylic painting set", "age_days": 90, "age_years": 0.25, "image": "/images/paintingset.jpg" },
+  { "id": "13", "name": "Office Chair", "category": "Furniture", "condition": "Fair", "description": "Ergonomic office chair, adjustable", "age_days": 1460, "age_years": 4, "image": "/images/chair.jpg" },
+  { "id": "14", "name": "Backpack", "category": "Accessories", "condition": "Good", "description": "Large hiking backpack, 40L", "age_days": 600, "age_years": 1.6, "image": "/images/backpack.jpg" },
+  { "id": "15", "name": "Blender", "category": "Kitchen", "condition": "Good", "description": "High-speed blender for smoothies", "age_days": 365, "age_years": 1, "image": "/images/blender.jpg" },
+  { "id": "16", "name": "Bicycle", "category": "Sports", "condition": "Fair", "description": "Mountain bike, 21-speed", "age_days": 1825, "age_years": 5, "image": "/images/bicycle.jpg" }
+]

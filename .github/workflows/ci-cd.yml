@@ -1,0 +1,48 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [18.x]
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Set up Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v4
+      with:
+        node-version: ${{ matrix.node-version }}
+
+    - name: Install backend dependencies
+      working-directory: ./giftlink-backend
+      run: npm install
+
+    - name: Install frontend dependencies
+      working-directory: ./giftlink-frontend
+      run: npm install
+
+    - name: Install sentiment dependencies
+      working-directory: ./sentiment
+      run: npm install
+
+    - name: Run backend tests
+      working-directory: ./giftlink-backend
+      run: npm test
+
+    - name: Build frontend
+      working-directory: ./giftlink-frontend
+      run: npm run build
+
+    - name: Deploy to production
+      if: github.ref == 'refs/heads/main'
+      run: echo "Deploying to production server..."
